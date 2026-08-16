@@ -1,0 +1,1982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ramakant Kumar | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- ================= AI ASSISTANT BUTTON ================= -->
+
+<button
+    class="ai-assistant-btn"
+    id="aiAssistantBtn"
+    aria-label="Open AI Assistant">
+
+    <span class="ai-icon">🤖</span>
+
+    <span class="ai-label">
+        Ask RK AI
+    </span>
+
+</button>
+<!-- ================= AI CHAT WINDOW ================= -->
+
+<div class="ai-chat-window" id="aiChatWindow">
+
+    <!-- Chat Header -->
+
+    <div class="ai-chat-header">
+
+        <div class="ai-chat-title">
+
+            <div class="ai-avatar">
+                🤖
+            </div>
+
+            <div>
+                <h3>RK AI</h3>
+                <span>Portfolio Assistant</span>
+            </div>
+
+        </div>
+
+        <button
+            class="ai-close-btn"
+            id="aiCloseBtn"
+            aria-label="Close AI Assistant">
+
+            ×
+
+        </button>
+
+    </div>
+
+
+    <!-- Chat Messages -->
+
+    <div class="ai-chat-body" id="aiChatBody">
+
+        <div class="ai-message">
+
+            <div class="message-avatar">
+                🤖
+            </div>
+
+            <div class="message-content">
+
+                <p>
+                    Hi! 👋 I'm RK AI.
+                </p>
+
+                <p>
+                    Ask me anything about Ramakant's
+                    skills, projects, education or resume.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Quick Questions -->
+
+        <div class="quick-questions">
+
+            <button class="quick-question">
+                💻 What are his skills?
+            </button>
+
+            <button class="quick-question">
+                🚀 Tell me about his projects
+            </button>
+
+            <button class="quick-question">
+                🎓 What is his education?
+            </button>
+
+            <button class="quick-question">
+                📄 Show me his resume
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Chat Input -->
+
+    <div class="ai-chat-input">
+
+        <input
+            type="text"
+            id="aiMessageInput"
+            placeholder="Ask me something..."
+            autocomplete="off"
+        >
+
+        <button
+            id="aiSendBtn"
+            aria-label="Send message">
+
+            ➤
+
+        </button>
+
+    </div>
+
+</div>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                RK<span>.</span>
+            </a>
+
+
+            <!-- Navigation -->
+            <nav class="nav-menu">
+
+                <a href="#home"
+                   class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#about"
+                   class="nav-link">
+                    About
+                </a>
+
+                <a href="#skills"
+                   class="nav-link">
+                    Skills
+                </a>
+
+                <a href="#projects"
+                   class="nav-link">
+                    Projects
+                </a>
+
+                <a href="#education"
+                   class="nav-link">
+                    Education
+                </a>
+
+                <a href="#certificates"
+                   class="nav-link">
+                    Certificates
+                </a>
+                <a href="#achievements" class="nav-link">
+                    Achievements
+                </a>
+
+                <a href="#contact"
+                   class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- Navbar Actions -->
+            <div class="nav-actions">
+
+            <a href="#resume"
+            class="resume-btn">
+                Resume
+            </a>
+
+
+                <button
+                    class="theme-btn"
+                    id="themeToggle"
+                    aria-label="Toggle Theme">
+                    ☀️
+                </button>
+
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open Menu">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-bg"></div>
+
+
+        <div class="container hero-container">
+
+
+            <!-- ===== LEFT CONTENT ===== -->
+
+            <div class="hero-content">
+
+
+                <span class="hero-badge">
+                    👋 Hi, I'm
+                </span>
+
+
+                <h1>
+                    Ramakant
+                    <span>Kumar</span>
+                </h1>
+
+
+                <h2>
+                    B.Tech CSE Student |
+                    <span id="typing-text">Data Science Enthusiast</span>
+                </h2>
+
+                <p>
+                    I am passionate about Data Science, Machine Learning
+                    and Artificial Intelligence. I enjoy working with data,
+                    building intelligent models and turning insights into
+                    practical real-world solutions.
+                </p>
+
+
+                <!-- Buttons -->
+
+                <div class="hero-buttons">
+
+                    <a href="#projects"
+                       class="primary-btn">
+
+                        View My Projects
+                        <span>→</span>
+
+                    </a>
+
+
+                    <a href="#contact"
+                       class="secondary-btn">
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+
+                <!-- Social Links -->
+
+                <div class="social-links">
+
+                    <a
+                        href="https://github.com/raman428"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="GitHub"
+                    >
+                        GitHub
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/ramakant-kumar-788b46379/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="LinkedIn"
+                    >
+                        LinkedIn
+                    </a>
+
+
+                    <a href="mailto:ramakant2005pc@gmail.com"
+                       title="Email">
+
+                        Email
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ===== RIGHT PROFILE ===== -->
+
+            <div class="hero-image">
+
+
+                <div class="image-glow"></div>
+
+
+                <div class="profile-circle">
+
+                    <img
+                        src="assets/images/profile.jpeg"
+                        alt="Ramakant Kumar"
+                    >
+
+                </div>
+
+
+                <!-- Floating Card 1 -->
+
+                <div class="floating-card card-one">
+                    📊 Data Science
+                </div>
+
+                <div class="floating-card card-two">
+                    🤖 AI / ML
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                About Me
+            </span>
+
+            <h2>
+                Turning Data Into
+                <span>Real Insights</span>
+            </h2>
+
+            <p>
+                A little bit about my journey, interests and
+                passion for Data Science and AI.
+            </p>
+
+        </div>
+
+
+        <!-- About Content -->
+
+        <div class="about-container">
+
+
+            <!-- Left Side -->
+
+            <div class="about-content">
+
+                <h3>
+                    Hey! I'm
+                    <span>Ramakant Kumar</span> 👋
+                </h3>
+
+                <p>
+                    I'm a B.Tech Computer Science and Engineering
+                    student passionate about Data Science,
+                    Machine Learning and Artificial Intelligence.
+                </p>
+
+                <p>
+                    I enjoy working with Python, data analysis,
+                    SQL and machine learning to discover meaningful
+                    patterns and turn data into practical solutions.
+                </p>
+
+                <p>
+                    I'm continuously improving my skills in
+                    Statistics, Data Visualization, Machine Learning,
+                    Generative AI and modern data-driven technologies.
+                </p>
+
+
+                <!-- Currently Learning -->
+
+                <div class="learning-box">
+
+                    <div class="learning-icon">
+                        📊
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Currently Learning
+                        </h4>
+
+                        <p>
+                            Python • SQL • Pandas • Statistics •
+                            Machine Learning • Generative AI
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Right Side -->
+
+            <div class="about-stats">
+
+
+                <!-- Stat 1 -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🎓
+                    </div>
+
+                    <h3>
+                        B.Tech
+                    </h3>
+
+                    <p>
+                        CSE Student
+                    </p>
+
+                </div>
+
+
+                <!-- Stat 2 -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🐍
+                    </div>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+                        Primary Language
+                    </p>
+
+                </div>
+
+
+                <!-- Stat 3 -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        📈
+                    </div>
+
+                    <h3>
+                        Data
+                    </h3>
+
+                    <p>
+                        Analysis & Visualization
+                    </p>
+
+                </div>
+
+
+                <!-- Stat 4 -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        ML + AI
+                    </h3>
+
+                    <p>
+                        Main Interests
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+
+<!-- ================= SKILLS SECTION ================= -->
+
+<section class="skills-section" id="skills">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                My Skills
+            </span>
+
+            <h2>
+                Data Science &
+                <span>AI Skills</span>
+            </h2>
+
+            <p>
+                Technologies and tools I use to analyze data,
+                build machine learning models and create
+                intelligent solutions.
+            </p>
+
+        </div>
+
+
+        <!-- Skills Grid -->
+
+        <div class="skills-grid">
+
+
+            <!-- Programming -->
+
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        🐍
+                    </div>
+
+                    <div>
+                        <h3>Programming</h3>
+                        <p>Core Languages</p>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 90%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Data Science -->
+
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        📊
+                    </div>
+
+                    <div>
+                        <h3>Data Science</h3>
+                        <p>Data Analysis & Visualization</p>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                        <span>Pandas</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>NumPy</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Matplotlib / Seaborn</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Machine Learning -->
+
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        🤖
+                    </div>
+
+                    <div>
+                        <h3>Machine Learning</h3>
+                        <p>ML Algorithms</p>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                        <span>Scikit-learn</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Regression</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Classification</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Data & Database -->
+
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        🗄️
+                    </div>
+
+                    <div>
+                        <h3>Data & Database</h3>
+                        <p>Data Management</p>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>MySQL</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Excel</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AI / Advanced ML -->
+
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        🧠
+                    </div>
+
+                    <div>
+                        <h3>AI / ML</h3>
+                        <p>Intelligent Systems</p>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                        <span>Machine Learning</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Generative AI</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 70%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Computer Vision</span>
+                        <span>65%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 65%"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Tools -->
+
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        🛠️
+                    </div>
+
+                    <div>
+                        <h3>Tools</h3>
+                        <p>Data & Development Tools</p>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                        <span>Git / GitHub</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 85%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>Power BI</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 70%"></span>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <span>VS Code</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="width: 90%"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+<!-- ================= PROJECTS SECTION ================= -->
+
+<section class="projects-section" id="projects">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                My Projects
+            </span>
+
+            <h2>
+                Things I've
+                <span>Built</span>
+            </h2>
+
+            <p>
+                A collection of AI, Machine Learning and
+                Generative AI projects where I turn ideas
+                into practical solutions.
+            </p>
+
+        </div>
+
+
+        <!-- Project Filters -->
+
+        <div class="project-filters">
+
+            <button class="filter-btn active">
+                All
+            </button>
+
+            <button class="filter-btn">
+                AI / ML
+            </button>
+
+            <button class="filter-btn">
+                GenAI
+            </button>
+
+        </div>
+
+
+        <!-- Projects Grid -->
+
+        <div class="projects-grid">
+
+
+            <!-- ================= PROJECT 1 ================= -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <div class="project-image-placeholder">
+                        🤖
+                    </div>
+
+                    <div class="project-category">
+                        GenAI
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <h3>
+                        GenAI Content Co-Pilot
+                    </h3>
+
+                    <p>
+                        An AI-powered content assistant designed
+                        to help users generate, improve and manage
+                        posts, articles and comments using
+                        Generative AI.
+                    </p>
+
+
+                    <!-- Technologies -->
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Gemini API</span>
+                        <span>Generative AI</span>
+
+                    </div>
+
+
+                    <!-- Buttons -->
+
+                    <div class="project-buttons">
+
+                        <a
+                            href="#"
+                            class="project-btn primary-project-btn"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-btn secondary-project-btn"
+                        >
+                            Live Demo ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= PROJECT 2 ================= -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <div class="project-image-placeholder">
+                        🤟
+                    </div>
+
+                    <div class="project-category">
+                        AI / ML
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <h3>
+                        AI Sign Language Detection
+                    </h3>
+
+                    <p>
+                        A computer vision project that detects
+                        hand signs through a camera and converts
+                        recognized gestures into understandable
+                        text.
+                    </p>
+
+
+                    <!-- Technologies -->
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>MediaPipe</span>
+                        <span>TensorFlow</span>
+
+                    </div>
+
+
+                    <!-- Buttons -->
+
+                    <div class="project-buttons">
+
+                        <a
+                            href="#"
+                            class="project-btn primary-project-btn"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-btn secondary-project-btn"
+                        >
+                            View Project ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ================= EDUCATION SECTION ================= -->
+
+<!-- ================= EDUCATION SECTION ================= -->
+
+<section class="education-section" id="education">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                Education
+            </span>
+
+            <h2>
+                My Academic
+                <span>Journey</span>
+            </h2>
+
+            <p>
+                My educational background and the foundation
+                of my journey in Computer Science and Data Science.
+            </p>
+
+        </div>
+
+
+        <!-- Education Timeline -->
+
+        <div class="education-timeline">
+
+
+            <!-- ================= B.TECH ================= -->
+
+            <div class="education-item">
+
+                <div class="timeline-dot">
+                    🎓
+                </div>
+
+
+                <div class="education-card">
+
+                    <div class="education-year">
+                        2024 — 2028
+                    </div>
+
+                    <h3>
+                        Bachelor of Technology
+                    </h3>
+
+                    <h4>
+                        Computer Science & Engineering
+                    </h4>
+
+                    <p>
+                        Currently pursuing B.Tech in Computer Science
+                        and Engineering with a strong interest in
+                        Data Science, Machine Learning, Artificial
+                        Intelligence and Python-based development.
+                    </p>
+
+                    <div class="education-tags">
+
+                        <span>Python</span>
+                        <span>Data Science</span>
+                        <span>Machine Learning</span>
+                        <span>AI</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= HIGHER SECONDARY ================= -->
+
+            <div class="education-item">
+
+                <div class="timeline-dot">
+                    📚
+                </div>
+
+
+                <div class="education-card">
+
+                    <div class="education-year">
+                        Higher Secondary
+                    </div>
+
+                    <h3>
+                        Higher Secondary Education
+                    </h3>
+
+                    <h4>
+                        Science
+                    </h4>
+
+                    <p>
+                        Completed higher secondary education in Science
+                        and developed an early interest in mathematics,
+                        computers and technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ================= CERTIFICATES SECTION ================= -->
+
+<!-- ================= CERTIFICATES SECTION ================= -->
+
+<section class="certificates-section" id="certificates">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                Certificates
+            </span>
+
+            <h2>
+                My Learning &
+                <span>Certifications</span>
+            </h2>
+
+            <p>
+                Certifications and learning achievements that
+                support my journey in Data Science, Machine
+                Learning and Artificial Intelligence.
+            </p>
+
+        </div>
+
+
+        <!-- Certificates Grid -->
+
+        <div class="certificates-grid">
+
+
+            <!-- Certificate Placeholder -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    📜
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-year">
+                        Coming Soon
+                    </span>
+
+                    <h3>
+                        Data Science Certifications
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Currently Learning
+                    </p>
+
+                    <p>
+                        Certificates and verified learning
+                        achievements in Data Science, Python,
+                        Machine Learning and AI will be added here.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Learning Focus -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    🐍
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-year">
+                        Learning
+                    </span>
+
+                    <h3>
+                        Python & Data Analysis
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Skill Development
+                    </p>
+
+                    <p>
+                        Currently strengthening Python, Pandas,
+                        NumPy, SQL and data visualization skills.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- AI / ML Learning -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    🤖
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-year">
+                        Learning
+                    </span>
+
+                    <h3>
+                        Machine Learning & AI
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Skill Development
+                    </p>
+
+                    <p>
+                        Continuously learning Machine Learning,
+                        Generative AI and intelligent systems.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ACHIEVEMENTS SECTION ================= -->
+
+<section class="achievements-section" id="achievements">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                Milestones & Goals
+            </span>
+
+            <h2>
+                My <span>Learning Journey</span>
+            </h2>
+
+            <p>
+                A look at my current projects, technical growth
+                and goals in Data Science, Machine Learning and AI.
+            </p>
+
+        </div>
+
+
+        <!-- Achievements Grid -->
+
+        <div class="achievements-grid">
+
+
+            <!-- Achievement 1 -->
+
+            <div class="achievement-card">
+
+                <div class="achievement-number">
+                    01
+                </div>
+
+                <div class="achievement-icon">
+                    📊
+                </div>
+
+                <h3>
+                    Data Science Journey
+                </h3>
+
+                <p>
+                    Building a strong foundation in Python,
+                    data analysis, SQL, statistics and
+                    data visualization.
+                </p>
+
+            </div>
+
+
+            <!-- Achievement 2 -->
+
+            <div class="achievement-card">
+
+                <div class="achievement-number">
+                    02
+                </div>
+
+                <div class="achievement-icon">
+                    🤖
+                </div>
+
+                <h3>
+                    AI / ML Projects
+                </h3>
+
+                <p>
+                    Working on practical Machine Learning,
+                    Computer Vision and Generative AI projects
+                    to solve real-world problems.
+                </p>
+
+            </div>
+
+
+            <!-- Achievement 3 -->
+
+            <div class="achievement-card">
+
+                <div class="achievement-number">
+                    03
+                </div>
+
+                <div class="achievement-icon">
+                    🐍
+                </div>
+
+                <h3>
+                    Python & Problem Solving
+                </h3>
+
+                <p>
+                    Continuously improving Python programming,
+                    problem-solving and algorithmic thinking
+                    through practice and projects.
+                </p>
+
+            </div>
+
+
+            <!-- Achievement 4 -->
+
+            <div class="achievement-card">
+
+                <div class="achievement-number">
+                    04
+                </div>
+
+                <div class="achievement-icon">
+                    🎯
+                </div>
+
+                <h3>
+                    Career Goal
+                </h3>
+
+                <p>
+                    Working towards becoming a skilled
+                    Data Scientist and AI/ML professional
+                    with strong practical experience.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESUME SECTION ================= -->
+
+<section class="resume-section" id="resume">
+
+    <div class="container">
+
+        <div class="resume-container">
+
+            <!-- Left Content -->
+
+            <div class="resume-content">
+
+                <span class="section-tag">
+                    My Resume
+                </span>
+
+                <h2>
+                    Let's Take a Look at
+                    <span>My Resume</span>
+                </h2>
+
+                <p>
+                    Explore my education, technical skills,
+                    Data Science projects, Machine Learning
+                    experience, certifications and other
+                    professional information.
+                </p>
+
+
+                <div class="resume-buttons">
+
+                    <!-- View Resume -->
+
+                    <a
+                        href="assets/resume/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="primary-btn">
+
+                        👀 View Resume
+
+                    </a>
+
+
+                    <!-- Download Resume -->
+
+                    <a
+                        href="assets/resume/resume.pdf"
+                        download="Ramakant-Kumar-Resume.pdf"
+                        class="secondary-btn">
+
+                        ⬇️ Download Resume
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Resume Preview -->
+
+            <div class="resume-preview">
+
+                <div class="resume-preview-top">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+                <div class="resume-paper">
+
+                    <div class="resume-line large"></div>
+
+                    <div class="resume-line medium"></div>
+
+                    <div class="resume-line small"></div>
+
+                    <div class="resume-divider"></div>
+
+                    <div class="resume-line medium"></div>
+
+                    <div class="resume-line small"></div>
+
+                    <div class="resume-line small"></div>
+
+                    <div class="resume-divider"></div>
+
+                    <div class="resume-line medium"></div>
+
+                    <div class="resume-line small"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                Contact Me
+            </span>
+
+            <h2>
+                Let's Connect
+                <span>Together</span>
+            </h2>
+
+            <p>
+                Have a project idea, internship opportunity or
+                just want to connect? Feel free to get in touch.
+            </p>
+
+        </div>
+
+
+        <!-- Contact Container -->
+
+        <div class="contact-container">
+
+
+            <!-- ================= CONTACT INFO ================= -->
+
+            <div class="contact-info">
+
+                <h3>
+                    Get In Touch 👋
+                </h3>
+
+                <p>
+                    I'm open to discussing Data Science,
+                    Machine Learning, AI projects, internship
+                    opportunities and interesting ideas.
+                </p>
+
+
+                <!-- Email -->
+
+                <a
+                    href="mailto:ramakant2005pc@gmail.com"
+                    class="contact-item">
+
+                    <div class="contact-icon">
+                        ✉️
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Email
+                        </span>
+
+                        <strong>
+                            ramakant2005pc@gmail.com
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Location -->
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Location
+                        </span>
+
+                        <strong>
+                            India
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Availability -->
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        🟢
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Availability
+                        </span>
+
+                        <strong>
+                            Open to Internship Opportunities
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Social Links -->
+
+                <div class="contact-socials">
+
+                    <!-- GitHub -->
+
+                    <a
+                        href="https://github.com/raman428"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub
+
+                    </a>
+
+
+                    <!-- LinkedIn -->
+
+                    <a
+                        href="https://www.linkedin.com/in/ramakant-kumar-788b46379"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        LinkedIn
+
+                    </a>
+
+
+                    <!-- Email -->
+
+                    <a
+                        href="mailto:ramakant2005pc@gmail.com">
+
+                        Email
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= CONTACT FORM ================= -->
+
+            <div class="contact-form-wrapper">
+
+                <form
+                    class="contact-form"
+                    id="contactForm"
+                    action="https://formspree.io/f/xjybavkw"
+                    method="POST">
+
+
+                    <!-- Name -->
+
+                    <div class="form-group">
+
+                        <label for="contactName">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <!-- Email -->
+
+                    <div class="form-group">
+
+                        <label for="contactEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+
+                    <!-- Message -->
+
+                    <div class="form-group">
+
+                        <label for="contactMessage">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <!-- Submit -->
+
+                    <button
+                        type="submit"
+                        class="contact-submit-btn">
+
+                        Send Message
+
+                        <span>
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <!-- Status -->
+
+                    <p
+                        class="form-status"
+                        id="formStatus">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-container">
+
+            <!-- Logo / About -->
+
+            <div class="footer-brand">
+
+                <a href="#home" class="footer-logo">
+                    RK<span>.</span>
+                </a>
+
+                <p>
+                    B.Tech CSE Student | Full Stack Developer |
+                    AI/ML Enthusiast
+                </p>
+
+            </div>
+
+
+            <!-- Footer Navigation -->
+
+            <div class="footer-links">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#skills">
+                    Skills
+                </a>
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <!-- Social Links -->
+
+            <div class="footer-socials">
+
+            <a
+                href="https://github.com/raman428"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+            >
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/ramakant-kumar-788b46379/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+            >
+                LinkedIn
+            </a>
+
+                <a
+                    href="mailto:your-email@gmail.com"
+                    aria-label="Email">
+
+                    Email
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Ramakant Kumar.
+                All Rights Reserved.
+            </p>
+
+            <a href="#home" class="back-to-top">
+                Back to Top ↑
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</html>
